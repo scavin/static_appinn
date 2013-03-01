@@ -377,62 +377,17 @@ a#go-top span{display: block;}
 #postfooterinfo ul{margin:0}
 #postfooterinfo h4, #postfooterinfo h4.related_post_title {font-size: 18px;padding: 10px 0 5px;margin-top: 10px;color: #707070;}
 .itt{border-top:15px solid #fff;}
-ul.related_post {
-	display: block;
-	position: relative;
-	margin: 0;
-	padding: 0;
-}
-ul.related_post li {
-	position: relative;
-	display: inline-block;
-	vertical-align: top;
-	zoom: 1;
-	*display: inline;
-	width: 150px;
-	margin: 10px 18px;
-	padding: 0;
-	background: none;
-}
-ul.related_post li a {
-	position: relative;
-	display: block;
-	font-size: 14px;
-	line-height: 1.6em;
-	text-decoration: none;
-	margin-bottom: 5px;
-	color: #707070;
-}
-ul.related_post li img {
-	display: block;
-	width: 150px;
-	height: 150px;
-	max-width: 100%;
-	margin: 0;
-	padding: 0;
-	background: none;
-	border: none;border-radius: 3px;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);}
+ul.related_post {display: block;position: relative;margin: 0;padding: 0;}
+ul.related_post li {position: relative;display: inline-block;vertical-align: top;zoom: 1;*display: inline;width: 150px;margin: 10px 18px;padding: 0;background: none;}
+ul.related_post li a {position: relative;display: block;font-size: 14px;line-height: 1.6em;text-decoration: none;margin-bottom: 5px;color: #707070;}
+ul.related_post li img {display: block;width: 150px;height: 150px;max-width: 100%;margin: 0;padding: 0;background: none;border: none;border-radius: 3px;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);}
 ul.related_post li a img.wp_rp_santa_hat {display: none;}
 ul.related_post li a:hover {color: #c30c30;}
 ul.related_post li small {font-size: 80%;}
 
 @media screen and (max-width: 480px) {
-	ul.related_post li {
-		display: block;
-		width: auto;
-		clear: both;
-	}
-	ul.related_post li a:nth-child(1) {
-		float: left;
-	}
-	ul.related_post li a:nth-child(2) {
-		font-size: 14px;
-		padding: 10px 0 10px 110px;
-		display: block;
-		height: 80px;
-	}
-	ul.related_post li img {
-		width: 100px;
-		height: 100px;
-	}
+ul.related_post li {display: block;width: auto;clear: both;}
+ul.related_post li a:nth-child(1) {float: left;}
+ul.related_post li a:nth-child(2) {font-size: 14px;padding: 10px 0 10px 110px;display: block;height: 80px;}
+ul.related_post li img {width: 100px;height: 100px;}
 }
