@@ -1,0 +1,450 @@
+/*
+Theme Name: pvpvpv
+Author: sofish
+*/
+
+/** Main Reset **/
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+address,dfn,th,var{font-style:normal;font-weight:400;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400;line-height:1em;color:#c30;}
+q:before,q:after{content:'';}
+fieldset,img,abbr,acronym{border:0;}
+
+/** xHtml Elements **/
+a{text-decoration:none;color:#c30;}
+a:hover{color:#777;}
+img, img a{border:none;}
+p{margin-bottom:15px;word-wrap: break-word; word-break: normal;}
+code{font-family:Georgia, "Times New Roman", Times, serif;word-break:all;}
+code.code_bg{display:block;padding:10px;border:1px dotted #b3b3b3;border-left:5px solid #ddd;background:#f9f9f9;}
+blockquote{background:#f7f7f7;border:1px dotted #a3a3a3;padding:15px 15px 0;margin-bottom:15px;}
+blockquote blockquote{margin:0 0 15px;background:#ffc;}
+h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-family: Arial, 微软雅黑, 黑体, sans-serif;}
+
+/** Layout **/
+body{background:#e8ddcb;font:13px 'Helvetica Neue',Helvetica,Arial,'Hiragino Sans GB','WenQuanYi Micro Hei','Microsoft YaHei',sans-serif;display:table;width:100%;position:relative;}
+#wrapper,#hbox,.fbox,.copyright{width:930px;margin:0 auto;padding:0 30px;}
+#container, #sidebar{line-height:150%;font-size:14px;}
+#container{float:right;width:567px;}
+#content{position:relative;}
+.sidebar{float:left;overflow:hidden;width:330px;}
+#footer{display:block;position:relative;width:100%;min-width:990px;border-top:51px solid #900;background:#F0E495 url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/footer_body.png) repeat-y center top;}
+.iborder{border:1px solid #b9b9b9;padding:4px;background-color:#fff;}
+.i2border{border:5px solid #e8edef;}
+.iclear{clear:both;}
+
+/** lemoned's fix TEMP **/
+#outerbox {min-width: 1100px;margin: 0 auto;background: #e8ddcb url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/body.jpg) repeat-y center top;}
+#outerheader {min-width: 1100px;background: url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/header_2.jpg) no-repeat center top;}
+#outerwrapper {min-width: 1100px;margin: 0 auto;background: #e8ddcb url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/body.jpg) repeat-y center top;}
+
+
+/** Header **/
+#header{width:100%;display:table;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/header_2.jpg) no-repeat center top;}
+#hbox{position:relative;height:203px;margin-bottom:48px;z-index:156;}
+#hbox h1 a{display:block;height:60px;width:176px;text-indent:-9999em;position:relative;top:11px;left:387px;}
+#hbox #tagline{text-indent:-9999em;}
+
+#loading{position:fixed;width:99px;height:9px;left:50%;margin:50px 0 0 -480px;background:#fff url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/loading.gif) no-repeat 0 0;z-index:16;border:10px solid #e8edef;}
+
+.topbox{position:relative;}
+.topbox span.ilogin, .topbox .blognav{position:absolute;color:#bbb;}
+.topbox span.ilogin{right:0px;top:-30px;}
+.topbox span.ilogin cite{font-style:normal;color:#777;}
+.topbox span.ilogin cite.ifeed a{color:#c30;text-decoration:underline;}
+.topbox span.ilogin cite.ifeed a:hover{color:#777;}
+.topbox .blognav{left:0;top:-30px;}
+.topbox span.ilogin a, .topbox .blognav span, .topbox .blognav a{color:#777;}
+.topbox span.ilogin a.sitemap{padding-left:10px;margin-left:10px;border-left:1px solid #ddd;}
+.topbox span.ilogin a:hover, .topbox .blognav a:hover{color:#c30;text-decoration:underline;}
+.topbox span.ilogin abbr a{color:#c30;text-decoration:underline;}
+.topbox span.ilogin abbr a:hover{text-decoration:none;background:#c30;color:#fff;}
+
+#topbox{margin:0 auto;width:410px;padding:14px 0 0 520px;height:274px;background:#F0E495;}
+#stopbox{height:6px;background:#c30;margin-bottom:20px;}
+
+#featured{position:relative;top:26px;height:190px;padding:30px 60px 10px 30px;width:310px;background:#F7F7F7;}
+#featured h3{width:118px;height:41px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat 0 0;line-height:41px;text-align:center;font-size:16px;color:#fff;position:absolute;top:-26px;}
+#featured li{border-bottom:1px solid #CCBF82;padding:3px 0 3px 16px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat -313px 7px;}
+#featured li a{color:#000;}
+#featured li a:hover{color:#c30;}
+
+/** Top Navigation **/
+#topnav{position:absolute;bottom:0;font-size:15px;width:930px;}
+#topnav ul li{float:left;position:relative;}
+#topnav ul li a{padding:0 15px;display:block;height:30px;line-height:30px;color:#464646;}
+#topnav ul li a:hover{color:#c30;}
+#topnav ul li.current_page_item a, #topnav ul li.current a{background:#fff;color:#900;}
+#topnav ul li ul{display:none;position:absolute;padding-top:10px;top:30px;left:0;background:#fff;border:1px solid #ddd;border-top:none;z-index:128;}
+#topnav ul li ul li{float:none;white-space:nowrap;font:12px/20px Georgia, "Times New Roman", Times, serif;}
+
+#feed a.feed{position:absolute;bottom:7px;right:2px;width:16px;height:16px;display:block;text-indent:-9999em;}
+#feedurl{font-size:13px;display:none;position:absolute;width:250px;padding:5px 30px;z-index:126;top:-43px;right:-19px;background:#f7f7f7;border:6px solid #e1e1e1}
+
+/** Content **/
+.post{width:567px;position:relative;}
+.post .thumbnail{background:#fff;width:100px;height:100px;overflow:hidden;border:8px solid #eee;position:absolute;left:0;}
+.post .thumbnail img{border:none;padding:0;}
+.entry-title{clear:both;font-size:18px;padding-bottom:7px;color:#900;}
+.entry-title a{color:#900;}
+.entry-title a:hover{text-decoration:underline;color:#000;}
+.morelink{border-top:15px solid #fff;}
+.morelink span{background:#c30;color:#fff;padding:0 8px;}
+.more-link{color:#c30;border-bottom:1px solid #c30;}
+a.more-link:hover{color:#000;border-bottom-color:#000;}
+.entry-info{color:#777;position:relative;width:456px;font:13px/25px Tahoma, Geneva, sans-serif;border-bottom:1px solid #c96;}
+.entry-info a{color:#777;font-style:normal;font-family:Arial, 微软雅黑, Georgia, sans-serif;}
+.entry-info a span{color:#c30;font-family:Tahoma, Geneva, sans-serif;}
+.entry-info a:hover{color:#000;}
+.entry-meta{clear:both;color:#bbb;margin-bottom:15px;width: 440px;font-size: 11px;}
+.entry-meta span{color:#777;}
+.entry-meta a:hover{text-decoration:underline;}
+.entry-meta a.post-edit-link, #cmt ol li a.comment-edit-link{color:#777;font-size:10px;}
+.entry-meta a.post-edit-link:hover, #cmt ol li a.comment-edit-link:hover{text-decoration:underline;color:#9c0;}
+
+.post ol, .post ul{margin:0 41px 15px 28px;}
+.post ul li {list-style:disc;}
+.post ol li{list-style:decimal;}
+.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6 {padding-bottom:15px;}
+.entry-content h1 a,.entry-content h2 a,.entry-content h3 a,.entry-content h4 a,.entry-content h5 a,.entry-content h6 a{color:#c30;border-bottom:none;} 
+.entry-content h1 a:hover,.entry-content h2 a:hover,.entry-content h3 a:hover,.entry-content h4 a:hover,.entry-content h5 a:hover,.entry-content h6 a:hover{color:#f30;text-decoration:underline;border-bottom:none;}
+.entry-content h1 {font-size:22px;}
+.entry-content h2 {font-size:18px;}
+.entry-content h3 {font-size:17px;}
+.entry-content h4 {font-size:16px;}
+.entry-content h5 {font-size:15px;}
+.entry-content h6 {font-size:14px;}
+.entry-content .gad{margin:0 10px 10px 0;height:250px;width:300px;float:left;}
+.entry-content div {margin-bottom:15px;}
+.entry-content a {background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=) center right no-repeat;
+padding-right: 13px;}
+
+#fpost{position:absolute;top:-272px;left:-333px;}
+#fpost .post{height:auto;border-bottom:none;width:456px;}
+#fpost .post .thumbnail{width:150px;height:150px;border-color:#f7f7f7;}
+#fpost .post .entry-title{padding-top:12px;}
+#fpost .post .entry-content{padding-left:180px;}
+#fpost .post a.comments-link{position:absolute;right:0}
+#fpost .morelink{border-top:15px solid #F0E495;}
+
+.ispost{border-top:26px solid #fff;}
+#spost .post{border-bottom:1px solid #ddd;margin-bottom:15px;min-height: 160px;}
+#spost .entry-content {padding-left: 136px;}
+.spost a.comments-link{display:inline-block;width:41px;height:17px;font:12px/17px Tahoma, Geneva, sans-serif;position:absolute;right:0;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat 0 -200px;text-align:center;color:#777;top:0;}
+.spost a.comments-link:hover{color:#c03;}
+
+/** Page Navigation **/
+.alignleft{float:left;}
+.alignright{float:right;}
+.aligncener{display:block;margin:0 auto;}
+
+/** Comment **/
+#comments{margin-top: 10px;}
+#cmt{border-top:6px double #ddd;}
+#cmt h3, #respond h3,#trackbacks-list h3{font-size:16px;font-weight:700;margin-bottom:20px;}
+#cmt h3 span{color:#000;}
+#cmt cite.fn{clear:both;font-style:normal;color:#c30;}
+#cmt .navigation{height:36px;}
+
+#cmt ol li{position:relative;width:567px;border-bottom:1px solid #ddd;margin-bottom:15px;}
+#cmt ol li img.avatar {float:left;display: inline;border-radius: 3px;-webkit-box-shadow: 0 1px 2px #ccc;box-shadow: 0 1px 2px #ccc;margin: 0 15px 0 5px;}
+#cmt ol li .comment-author{color:#777;}
+#cmt ol li .comment-meta{font:italic 12px Georgia, "Times New Roman", Times, serif;margin-bottom:10px;color:#777;position: absolute;top: 0;left:77px;}
+#cmt ol li .comment-meta  span a{color:#c30;font-style:normal;}
+#cmt ol li a:hover, #cmt ol li .comment-meta a:hover{color:#000;text-decoration:underline;}
+#cmt .comment-childs {position:relative;padding: 5px 5px 0px 5px;margin:10px 5px 5px 40px;border:1px ridge #dddddd;}
+#cmt .comment-childs .comment-childs {margin-bottom:5px;margin-right: 20px;}
+#cmt .comment-childs img.avatar{margin: 5px 15px 0 5px;}
+#cmt .comment-childs .vote{margin: 10px 5px 0 0;}
+#cmt .comment-childs p{margin:0;padding: 10px 15px 5px 50px;}
+#cmt .comment-childs p.thdrpy{margin:0 5px 10px 0;}
+#cmt .comment-childs .meta{font: italic 12px Georgia, "Times New Roman", Times, serif;color: #777;margin: 5px 0 0 0;}
+#cmt .thdrpy{color:#ddd;text-align:right;margin: 0 5px 5px 0;}
+#cmt .thdrpy a{color:#777;}
+#cmt #cancel_reply a{position:absolute;left:20px;bottom:20px;color:#fff;font:italic 13px Georgia, "Times New Roman", Times, serif;text-decoration:underline;}
+
+#trackbacks-list{padding:10px;border:1px solid #ddd;border-left:6px solid #c96;margin-bottom:15px;}
+#trackbacks-list h3{border-bottom:1px dashed #ddd;padding-bottom:6px;margin-bottom:10px;}
+#trackbacks-list ol li{margin-left:2em;padding-left:18px;list-style:decimal;color:#f36;border-left:1px solid #ddd;font:700 italic 16px/22px Georgia, "Times New Roman", Times, serif;}
+#trackbacks-list ol li a{font:500 normal 13px/22px Verdana, Geneva, sans-serif;color:#777;}
+#trackbacks-list ol li a:hover{color:#f36;text-decoration:underline;}
+
+#respond,#cmt #commentform{clear:both;background:#E6DBA5;border-left:6px solid #C96;padding:25px 20px 0;}
+#respond #commentload, #respond #commenterror{margin-bottom:10px;}
+#respong #commentform{width:567px;}
+#respond input,#cmt #commentform input, #respond textarea, #cmt #commentform textarea{border:1px solid #eee;border-color:#999 #f0e495 #f0e495 #999;padding:2px 5px;color:#777;font:13px Georgia, "Times New Roman", Times, serif;-moz-border-radius: 5px;border-radius: 5px;-webkit-box-shadow: inset 0 1px 3px;-moz-box-shadow: inset 0 1px 3px;box-shadow: inset 0 1px 3px;}
+#respond input#submit, #cmt #commentform input#submit{margin-bottom:25px;border:1px solid #eee;border-color:#c30 #300 #300 #c30; background:#900;color:#fff;padding:3px 15px;}
+#respond textarea#comment{width:400px;height:150px;}
+#cmt #commentform{position:relative;}
+#cmt #commentform textarea#comment{width:70%;height:120px;}
+#respond label {padding-left: 10px;margin: 0;}
+#respond .avatar {position: absolute;right: 25px;border-radius: 3px;-webkit-box-shadow: 0 1px 2px #ccc;box-shadow: 0 1px 2px #ccc;}
+.editinfo {font-size: 10px;color: rgb(141, 141, 141);}
+/** Sidebar **/
+.sidebar a{color:#000;}
+.sidebar a:hover{color:#c30;}
+.sidebar p{margin-bottom:10px;}
+.sidebar ul h4{height:25px;font-size:16px;line-height:20px;color:#c30;border-bottom:1px solid #e8ddcb;margin-bottom:10px;padding-left:39px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat 0 -96px;width:250px;}
+
+.sidebar ul{background:#f5f3f2;padding:25px 20px 0;}
+.sidebar ul li{list-style:none;margin-bottom:10px;border-bottom:20px solid #f5f3f2;}
+.sidebar ul ul{background:none;padding:0;}
+.sidebar ul li li{list-style:none;margin:0;padding:2px 0 2px 16px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat -313px -193px;border-bottom:1px solid #e8ddcb;}
+
+.sidebar ul li#cats li{display:block;width:120px;margin-right:8px;float:left;}
+.sidebar ul li#socmt a{color:#c30;}
+.sidebar ul li#socmt a:hover{color:#000;text-decoration:underline;}
+.sidebar ul li#socmt h4.nw {background-position:0 -72px;}
+
+#searchform{width:330px;height:50px;position:relative;padding:20px 0 0 35px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat 0 -121px;border-bottom:12px solid #fff;}
+#s, #searchsubmit{position:absolute;top:19px;display:block;border:none;background:none;}
+#s{width:235px;height:14px;padding:4px 6px 6px 0;left:58px;font:13px/13px Georgia, "Times New Roman", Times, serif;color:#777;}
+#searchsubmit{cursor:pointer;height:25px;width:30px;left:30px;}
+
+/** Footer **/
+#ftop{width:100%;height:61px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/footer_top3.png) no-repeat center top;position:relative;top:-51px;z-index:5;}
+.fbox{position:relative;z-index:6;top:-25px;font:13px Georgia, "Times New Roman", Times, serif;position:relative;}
+.fbox #blinks a, .fbox #babout a{color:#000;}
+.fbox #blinks a.linkcat{color:#c30;}
+.fbox #blinks a:hover{color:#c30;}
+.fbox #blinks a.linkcat:hover{color:#fff;}
+.fbox #babout a:hover{color:#c30;text-decoration:underline;}
+.fbox #blinks{width:390px;float:left;border-bottom:1px solid #E6DBA5;}
+.fbox #blinks ul li{list-style:none;width:160px;padding:2px 0 2px 16px;margin-right:15px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat -313px -43px;border-bottom:1px solid #c96;float:left;}
+.fbox #babout{width:526px;float:right;font-size:12px;}
+.fbox #babout h3,.fbox #blinks h3{font-size:16px;font-weight:700;margin-bottom:20px;color:#000;text-shadow:1px 1px 1px #666;}
+.fbox #blinks h3 {margin-bottom: 12px;}
+.fbox #babout h3 cite,.fbox #blinks h3 cite{font-style:normal;color:#c30;border-right:10px solid #E6DBA5;}
+.fbox #babout h3 span,.fbox #blinks h3 span{font-size:14px;font-weight:normal;}
+.fbox #babout p{margin-bottom:20px;line-height:1.46em;}
+.fbox #babout p.writter{line-height:25px;}
+.fbox #babout p em{font:normal 700 12px Georgia, "Times New Roman", Times, serif;}
+.fbox #babout h5{border-bottom:8px solid #e6dba5;font-weight:700;color:#000;}
+.fbox #babout span.show{position:absolute;right:46px;top:46px;}
+.fbox #babout span.show a{display:block;width:88px;margin-bottom:8px;}
+.fbox #babout span.show a.cbn{height:27px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat 0 -42px;text-indent:-9999em;}
+#fbtn{clear:both;width:100%;height:109px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/footer_bottom.png) no-repeat center top;}
+#fbtn .copyright{font:italic 13px Georgia, "Times New Roman", Times, serif;position:relative;top:21px;text-align:right;}
+#fbtn .copyright span{line-height:2em;}
+#fbtn .copyright strong{font-weight:normal;float:left;}
+#fbtn .copyright strong span{float:none;}
+#fbtn .copyright strong span a{text-decoration:underline;}
+#fbtn .copyright a.flogo{display:block;width:105px;height:26px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat 0 -232px;float:left;position:relative;left:-10px;}
+
+/** ToolTip **/
+#easyTooltip{margin:0 10px 1em 0;width:250px;padding:10px 8px 8px;background:#f7f7f7;border:6px solid #e1e1e1;line-height:130%;}
+#easyTooltip span{color:#666;}
+#easyTooltip strong span{color:#c30;}
+#search{display:none;}
+
+/** Link Page **/
+ul#mylink {margin:0;}
+ul#mylink li{list-style:none;display:block;width:175px;border-bottom:1px dotted #a3a3a3;float:left;margin-right:10px;}
+
+/** SiteMap **/
+#sbp{width:337px;float:right;display:inline;_margin-right:-10px;}
+#sba{width:210px;_width:200px;float:left;border-right:1px solid #d9d9d9;padding:0;}
+.post #sba ul{margin:0 0 0 1.2em;padding:0 0 15px;}
+.post #sba ul li ul{padding-bottom:0;}
+.post #sba ul li{list-style:square;background:none;color:#aaa;}
+#sba h3, #sbp h3{color:#c30;margin:0 0 15px 0;padding:5px 15px;background:#e1e1e1;}
+#sbp h3{position:relative;left:-15px;width:321px;}
+.post #sbp ul{padding:0;margin:0;}
+.post #sbp ul li{padding:2px;border-bottom:1px dotted #a3a3a3;list-style:none;}
+
+/** ela css **/
+#af-ela ul{padding:0;}
+#af-ela ul li{list-style:none;text-align:left;padding:2px 8px;}
+#af-ela-menu{border-bottom:1px solid #ccc;margin-bottom:0;}
+#af-ela-menu li{display:inline;border:1px solid #ccc;border-bottom:none;font-size:16px;margin-bottom:0;padding:2px 10px !important;}
+#af-ela-menu li.selected{background:#f5f3f2;font-size:20px;}
+#af-ela-year li:hover,#af-ela-month li:hover,#af-ela-post li:hover,#af-ela-category li:hover,#af-ela-tag li:hover{background:#f7f7f7;border-top:1px solid #ddd;border-bottom:1px solid #ddd;text-decoration:none;}
+#af-ela-year,#af-ela-month,#af-ela-category,#af-ela-tag{float:left;width:20%;border-left:1px solid #ddd;font-size:16px;margin:0;padding:0;}
+#af-ela-category{width:40%;}
+#af-ela-tag{width:99%;font-weight:400;border-right:1px solid #ddd;border-bottom:1px solid #ddd;_word-wrap:break-word;}
+#af-ela-tag li{display:inline;}
+#af-ela-tag li:hover{border:none;}
+#af-ela-post-chrono,#af-ela-post-cats,#af-ela-post-tags{float:left;width:59%;border-right:1px solid #ccc;border-left:1px solid #ccc;font-weight:400;line-height:20px;margin:0;}
+#af-ela-post-tags{width:99%;border-left:1px solid #ccc;}
+#af-ela ul li span{position:absolute;right:8px;color:#aaa;}
+#af-ela-loading{float:right;margin:0;padding:0;}
+#af-ela-post-prev,#af-ela-post-prev-off,#af-ela-post-next,#af-ela-post-next-off{width:100%;text-align:center;padding-top:1px;padding-bottom:1px;margin:0;}
+#af-ela-post-chrono a,#af-ela-post-cats a,#af-ela-post-tags a,#af-ela-post-chrono a:hover,#af-ela-post-cats a:hover,#af-ela-post-tags a:hover{text-decoration:none;}
+#af-ela-year li.selected,#af-ela-month li.selected,#af-ela-category li.selected,#af-ela-post-chrono li.selected,#af-ela-post-cats li.selected,#af-ela-post-tags li.selected,#af-ela-post-chrono li:hover,#af-ela-post-cats li:hover,#af-ela-post-tags li:hover,#af-ela-post-prev:hover,#af-ela-post-next:hover{background:#FFF6BF !important;border-top:1px solid #FFD324 !important;border-bottom:1px solid #FFD324 !important;}
+/** Scavin CSS **/
+.author_name{font-size:30px;margin:0 0 5px;padding:0 0 10px 190px;border-bottom-style:inset;}
+.author_avatar{position:absolute;top:40px;left:470px;}
+.author_post{font-weight:700;border-bottom:1px solid #dddddd;;margin:0 0 15px;}
+img.imgdown {padding: 0;margin: 0 5px -9px 0;}
+.pagebar {padding-top: 5px; padding-bottom: 5px; margin: 0 0 0 10px; }
+.pagebar a{padding: 2px 9px; border: solid 1px #dddddd;text-decoration:none;-webkit-border-radius: 8px;border-radius: 8px;}
+.pagebar a:hover {color:#ffffff;background: #367CC5;}
+#newpost{position:absolute;top:272px;left:533px;}#newpost h4 {font-size:25px;}#newpost ul {margin:10px}
+#ckepop {margin: 20px 0;padding: 10px 0;border-top: 1px solid #ebebeb;}
+#ckepop h4 {color: #707070;padding: 10px 0 8px;font-size: 18px;}
+#ckepop a{color:#000;}
+#ckepop span {padding-left: 30px;font-size: 18px;}
+#ckepop span:hover {background: url("http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png")-269px -255px no-repeat;}
+.ads {text-align: center;padding: 0 0 10px 0;}
+.ads img {margin: 0;}
+.ads-ga {margin:0px 0px 10px 0px;}
+#nav-single{border-top: 1px solid #ebebeb;padding-top: 15px;}
+#postfooterinfo .nav-previous{width:255px;float:left;padding-left: 20px;border-right: 1px solid #ebebeb;}
+#postfooterinfo .nav-previous h4 {text-align: left;margin-top: 0;}
+#postfooterinfo .nav-next h4 {text-align: right;margin-top: 0;}
+#postfooterinfo .nav-next{width:255px;float:right;text-align: right;padding-right: 20px;}
+.sidebar_150 {background: url('http://www.appinn.com/wp-content/sidebar_150.png');}
+.gad {margin: 20px 0;padding: 5px 0;}
+.gad span {display: block;color: #707070;padding-bottom: 4px;}
+.contactform {line-height: 40px;}
+img.imgcontact {padding: 0;margin: 0 20px -18px 0;border: none;display: inline;}
+.hor{margin:0;padding: 25px 15px 0 90px;}
+.postcomment img.avatar {float: right;display: inline;border-radius: 3px;-webkit-box-shadow: 0 1px 2px #ccc;box-shadow: 0 1px 2px #ccc;margin: 0 15px 0 5px;}
+#bdun,#bdunaff {border-bottom: 1px solid #DDD;margin-bottom: 15px;padding-bottom: 15px;text-align: center;}
+.entry-content p, .entry-content ul {font-size: 16px;line-height: 25px;}
+.more-link {font-size: 14px;}
+#cse-search-box #q {width: 200px;}
+ins {background: #fff9c0;text-decoration: none;}
+/**  Tiny Contact Form **/
+.tcf_input {display:none !important; visibility:hidden !important;}
+#featured h3 a {color:#ffffff;}
+#featured h3 a:hover {color:#D9D8D6;}
+/**  wp-paged-comments **/
+.wp-paged-comments {padding: 0px 0px 10px;}
+.wp-paged-comments a, #wp-paged-comments a:link, #wp-paged-comments a:active {padding: 2px 4px 2px 4px; margin: 2px;text-decoration: none;	border: 1px solid #0066cc;	color: #0066cc;background-color: #FFFFFF;}
+.wp-paged-comments a:hover {border: 1px solid #114477;	color: #114477;background-color: #FFFFFF;}
+.wp-paged-comments span.pages {padding: 2px 4px 2px 4px; margin: 2px 2px 2px 2px;color: #000000;border: 1px solid #000000;	background-color: #FFFFFF;}
+.wp-paged-comments span.current {padding: 2px 4px 2px 4px; margin: 2px;font-weight: bold;border: 1px solid #000000;color: #000000;background-color: #FFFFFF;}
+.wp-paged-comments span.extend {	padding: 2px 4px 2px 4px; margin: 2px;border: 1px solid #000000;	color: #000000;	background-color: #FFFFFF;}
+.aligncenter {margin-left: auto;margin-right: auto;clear: both;display: block;}
+/** Post Ratings**/
+.ratings{margin: 0;position: absolute;right: 0;top: 25px;}
+.ratings:after{content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0;}
+.ratings .item{display: none;}
+.ratings ul, .ratings a:hover, .ratings .rating{background: transparent url(http://img3.appinn.com/wp-content/plugins/post-ratings/star.png) repeat-x;}
+.ratings ul, .ratings li{list-style-type: none; margin: 0; padding: 0;}
+.ratings ul{height: 16px; float: left;}
+.ratings li{position: relative; display: block;}
+.ratings a{position: absolute; cursor: pointer; left: 0; top: 0; display:block; width:16px; height: 16px; text-decoration: none; text-indent: -9999px; z-index: 10;}
+.ratings ul li a:hover{background-position: left bottom; z-index: 5; left: 0 !important;}
+.ratings .s2 a{left:16px;}
+.ratings .s2 a:hover{width: 32px;}
+.ratings .s3 a{left: 32px;}
+.ratings .s3 a:hover{width: 48px;}
+.ratings .s4 a{left: 48px;}
+.ratings .s4 a:hover{width: 64px;}
+.ratings .s5 a{left: 64px;}
+.ratings .s5 a:hover{width: 80px;}
+.ratings .s6 a{left: 80px;}
+.ratings .s6 a:hover{width: 96px;}
+.ratings .s7 a{left: 96px;}
+.ratings .s7 a:hover{width: 112px;}
+.ratings .s8 a{left: 112px;}
+.ratings .s8 a:hover{width: 128px;}
+.ratings .s9 a{left: 128px;}
+.ratings .s9 a:hover{width: 144px;}
+.ratings .s10 a{left: 144px;}
+.ratings .s10 a:hover{width: 160px;}
+.ratings .rating{background-position: left center; position: absolute; height: 16px; display: block; text-indent: -9999px; z-index: 1;}
+.ratings .meta{font-size: 11px; color: #999; float: left; margin-left: 5px; line-height: 18px;}
+.ratings .meta strong{color: #666;}
+.ratings.error .meta{color: #ff0000; font-weight: bold;}
+.ratingslist.ratings {right: 45px;top: 0;}
+/** WP-Fav**/
+.wpfp-hide {display: none;}
+.wpfp-img {border: 0; vertical-align: middle; margin-right: 2px;}
+.remove-parent {color:#bbb;}
+.wpfp-addlink {position: absolute;right:135px;top:25px;}
+.wpfp-span .navigation {padding-bottom: 50px;}
+.wpfp-span .remove-parent {float: right;}
+.wpfp-span ul li:hover {background: #f4f4f4;}
+.wpfp-span .alignleft {background: #900;padding: 5px 10px;position: absolute;bottom: 50px;left: 0;-moz-border-radius-topright: 10px;-webkit-border-top-right-radius: 25px;}
+.wpfp-span .alignright {background: #900;padding: 5px 10px;position: absolute;bottom: 50px;right: 0;-moz-border-radius-topleft: 10px;-webkit-border-top-left-radius: 25px;}
+.wpfp-span .alignleft a,.wpfp-span .alignright a {color: #fff;font-weight: bold;text-decoration: none;}
+.wpfp-span ul li {line-height: 30px;}
+/** go-top **/
+a#go-top {font-size: 25px;background: #E6E6E6;width: 50px;height: 25px;text-align: center;text-decoration: none;line-height: 25px;color: #fff;padding: 5px 3px;border-radius: 5px;}
+a#go-top:hover{background:#CCC;font-size: 30px;}
+a#go-top span{display: block;}
+/** Related Posts **/
+#postfooterinfo{border-top: 1px solid #ebebeb;margin: 20px 0;}
+#postfooterinfo ul{margin:0}
+#postfooterinfo h4, #postfooterinfo h4.related_post_title {font-size: 18px;padding: 10px 0 5px;margin-top: 10px;color: #707070;}
+.itt{border-top:15px solid #fff;}
+ul.related_post {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+ul.related_post li {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+	width: 150px;
+	margin: 10px 18px;
+	padding: 0;
+	background: none;
+}
+ul.related_post li a {
+	position: relative;
+	display: block;
+	font-size: 14px;
+	line-height: 1.6em;
+	text-decoration: none;
+	margin-bottom: 5px;
+	color: #707070;
+}
+ul.related_post li img {
+	display: block;
+	width: 150px;
+	height: 150px;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+
+	border-radius: 3px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul.related_post li a img.wp_rp_santa_hat {
+	display: none;
+}
+ul.related_post li a:hover {
+color: #c30c30;
+}
+
+ul.related_post li small {
+	font-size: 80%;
+}
+
+@media screen and (max-width: 480px) {
+	ul.related_post li {
+		display: block;
+		width: auto;
+		clear: both;
+	}
+	ul.related_post li a:nth-child(1) {
+		float: left;
+	}
+	ul.related_post li a:nth-child(2) {
+		font-size: 14px;
+		padding: 10px 0 10px 110px;
+		display: block;
+		height: 80px;
+	}
+	ul.related_post li img {
+		width: 100px;
+		height: 100px;
+	}
+}
