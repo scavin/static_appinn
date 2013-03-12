@@ -107,7 +107,7 @@ a.more-link:hover{color:#000;border-bottom-color:#000;}
 .entry-meta a.post-edit-link, #cmt ol li a.comment-edit-link{color:#777;font-size:10px;}
 .entry-meta a.post-edit-link:hover, #cmt ol li a.comment-edit-link:hover{text-decoration:underline;color:#9c0;}
 
-.post ol, .post ul{margin:0 41px 15px 28px;}
+.post ol, .post ul{margin-left: 1.9em;}
 .post ul li {list-style:disc;}
 .post ol li{list-style:decimal;}
 .post ol li ul li {list-style: circle;}
