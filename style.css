@@ -102,8 +102,7 @@ a.more-link:hover{color:#000;border-bottom-color:#000;}
 .entry-info a{color:#777;font-style:normal;font-family:Arial, 微软雅黑, Georgia, sans-serif;}
 .entry-info a span{color:#c30;font-family:Tahoma, Geneva, sans-serif;}
 .entry-info a:hover{color:#000;}
-.entry-meta{clear:both;color:#bbb;margin-bottom:15px;width: 440px;font-size: 11px;}
-.entry-meta span{color:#777;}
+.entry-meta{clear:both;color:#888;margin-bottom:15px;width: 440px;font-size: 11px;}
 .entry-meta a:hover{text-decoration:underline;}
 .entry-meta a.post-edit-link, #cmt ol li a.comment-edit-link{color:#777;font-size:10px;}
 .entry-meta a.post-edit-link:hover, #cmt ol li a.comment-edit-link:hover{text-decoration:underline;color:#9c0;}
@@ -352,7 +351,7 @@ ins {background: #fff9c0;text-decoration: none;}
 .ratings .s10 a{left: 144px;}
 .ratings .s10 a:hover{width: 160px;}
 .ratings .rating{background-position: left center; position: absolute; height: 16px; display: block; text-indent: -9999px; z-index: 1;}
-.ratings .meta{font-size: 11px; color: #999; float: left; margin-left: 5px; line-height: 18px;}
+.ratings .meta{font-size: 11px; color: #888; float: left; margin-left: 5px; line-height: 18px;}
 .ratings .meta strong{color: #666;}
 .ratings.error .meta{color: #ff0000; font-weight: bold;}
 .ratingslist.ratings {right: 45px;top: 0;}
