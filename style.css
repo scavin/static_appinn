@@ -110,6 +110,7 @@ a.more-link:hover{color:#000;border-bottom-color:#000;}
 .post ol, .post ul{margin:0 41px 15px 28px;}
 .post ul li {list-style:disc;}
 .post ol li{list-style:decimal;}
+.post ol li ul li {list-style: circle;}
 .entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6 {padding-bottom:15px;}
 .entry-content h1 a,.entry-content h2 a,.entry-content h3 a,.entry-content h4 a,.entry-content h5 a,.entry-content h6 a{color:#c30;border-bottom:none;} 
 .entry-content h1 a:hover,.entry-content h2 a:hover,.entry-content h3 a:hover,.entry-content h4 a:hover,.entry-content h5 a:hover,.entry-content h6 a:hover{color:#f30;text-decoration:underline;border-bottom:none;}
