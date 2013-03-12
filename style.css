@@ -115,8 +115,8 @@ a.more-link:hover{color:#000;border-bottom-color:#000;}
 .entry-content h1 a:hover,.entry-content h2 a:hover,.entry-content h3 a:hover,.entry-content h4 a:hover,.entry-content h5 a:hover,.entry-content h6 a:hover{color:#f30;text-decoration:underline;border-bottom:none;}
 .entry-content h1 {font-size:22px;}
 .entry-content h2 {font-size:18px;}
-.entry-content h3 {font-size:17px;}
-.entry-content h4 {font-size:16px;}
+.entry-content h3 {font-size: 1.4em;margin-bottom: 0.4em;line-height: 1.5;font-weight: 500;color: #333;}
+.entry-content h4 {font-size: 1.2em;margin-bottom: 0.4em;line-height: 1.5;font-weight: 500;color: #333;}
 .entry-content h5 {font-size:15px;}
 .entry-content h6 {font-size:14px;}
 .entry-content .gad{margin:0 10px 10px 0;height:250px;width:300px;float:left;}
