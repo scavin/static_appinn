@@ -282,9 +282,6 @@ ul#mylink li{list-style:none;display:block;width:175px;border-bottom:1px dotted 
 .author_avatar{position:absolute;top:40px;left:470px;}
 .author_post{font-weight:700;border-bottom:1px solid #dddddd;;margin:0 0 15px;}
 img.imgdown {padding: 0;margin: 0 5px -9px 0;}
-.pagebar {padding-top: 5px; padding-bottom: 5px; margin: 0 0 0 10px; }
-.pagebar a{padding: 2px 9px; border: solid 1px #dddddd;text-decoration:none;-webkit-border-radius: 8px;border-radius: 8px;}
-.pagebar a:hover {color:#ffffff;background: #367CC5;}
 #newpost{position:absolute;top:272px;left:533px;}#newpost h4 {font-size:25px;}#newpost ul {margin:10px}
 #ckepop {margin: 20px 0;padding: 10px 0;border-top: 1px solid #ebebeb;}
 #ckepop h4 {color: #707070;padding: 10px 0 8px;font-size: 18px;}
@@ -391,3 +388,4 @@ ul.related_post li a:nth-child(1) {float: left;}
 ul.related_post li a:nth-child(2) {font-size: 14px;padding: 10px 0 10px 110px;display: block;height: 80px;}
 ul.related_post li img {width: 100px;height: 100px;}
 }
+/** 计划改变版式，如果你愿意帮助我们，请联系 scavina+css@gmail.com **/
