@@ -1,5 +1,5 @@
 /*
-Theme Name: pvpvpv
+Theme Name: Appinn Themes
 Author: sofish
 */
 
@@ -150,7 +150,11 @@ padding-right: 13px;}
 .comment-author .avatar {float: left;display: inline;border-radius: 3px;-webkit-box-shadow: 0 1px 2px #ccc;box-shadow: 0 1px 2px #ccc;margin: 0 15px 0 5px;}
 .depth-1 {border-bottom: 1px solid #ddd;margin-bottom: 15px;}
 .comment-meta.commentmetadata {font: italic 12px Georgia, "Times New Roman", Times, serif;margin-bottom: 10px;color: #777;}
-.commentlist .children {position: relative;padding: 10px 5px 5px 5px;margin: 10px 5px 5px 70px;border: 1px ridge #dddddd;}
+.commentlist .children{margin: 10px 5px 5px 70px;}
+.depth-2 .comment-author {padding: 10px 0 0 5px;}
+.depth-2 {border-top: 1px ridge #dddddd;padding-top: 5px;}
+.depth-2 .reply {padding-right: 20px;}
+.depth-3 {border-top: 1px ridge #dddddd;margin-right: 20px;}
 .comment .reply a {color: #777;}
 .comment .reply {color: #ddd;text-align: right;margin: 0 5px 5px 0;}
 .comment-body {padding-left: 70px;}
