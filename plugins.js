@@ -1,2 +1,12 @@
 jQuery(document).ready(function($){$('.wpfp-link').live('click',function(){dhis=$(this);wpfp_do_js(dhis,1);if(dhis.hasClass('remove-parent')){dhis.parent("li").fadeOut()}return false})});function wpfp_do_js(b,c){loadingImg=b.prev();loadingImg.show();beforeImg=b.prev().prev();beforeImg.hide();url=document.location.href.split('#')[0];params=b.attr('href').replace('?','')+'&ajax=1';if(c){jQuery.get(url,params,function(a){b.parent().html(a);if(typeof wpfp_after_ajax=='function'){wpfp_after_ajax(b)}loadingImg.hide()})}}jQuery(document).ready(function($){$(document).delegate('.ratings:not(.rated) a','click',function(b){b.preventDefault();var c=$(this).parents('.ratings'),rating=$(this).parents('li').index();$.ajax({url:(typeof atom_config!=='undefined')?atom_config.blog_url:post_ratings.blog_url,type:'GET',data:({post_id:$('ul',c).data('post'),rate:rating,}),dataType:'json',beforeSend:function(){c.removeClass('error').addClass('loading')},error:function(){c.addClass('error')},success:function(a){if(a.error){c.addClass('error').find('.meta').html(a.error)}else{c.removeClass('loading').addClass('rated');$('.rating',c).width(a.rating*16).parents('ul').attr('title',a.text);$('.meta',c).html(a.status);c.trigger('rated_post',a)}$('a',c).remove()}});return true})});
 addComment={moveForm:function(d,f,i,c){var m=this,a,h=m.I(d),b=m.I(i),l=m.I("cancel-comment-reply-link"),j=m.I("comment_parent"),k=m.I("comment_post_ID");if(!h||!b||!l||!j){return}m.respondId=i;c=c||false;if(!m.I("wp-temp-form-div")){a=document.createElement("div");a.id="wp-temp-form-div";a.style.display="none";b.parentNode.insertBefore(a,b)}h.parentNode.insertBefore(b,h.nextSibling);if(k&&c){k.value=c}j.value=f;l.style.display="";l.onclick=function(){var n=addComment,e=n.I("wp-temp-form-div"),o=n.I(n.respondId);if(!e||!o){return}n.I("comment_parent").value="0";e.parentNode.insertBefore(o,e);e.parentNode.removeChild(e);this.style.display="none";this.onclick=null;return false};try{m.I("comment").focus()}catch(g){}return false},I:function(a){return document.getElementById(a)}};
+ jQuery(document).ready(function($){
+$('.comment-reply-link').click(function() {
+      var atid = '"#' + $(this).parent().parent().attr("id") + '"';
+       var atname = $(this).parent().parent().find('.commentmetadata cite').text();
+$("#comment").attr("value","<a href=" + atid + ">@" + atname + " </a>").focus();
+ });
+$('#cancel-comment-reply-link').click(function() {
+$("#comment").attr("value",'');
+ });
+ });
