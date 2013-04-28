@@ -25,7 +25,7 @@ $('a[href*=#]').not('a[href$="#comments"]').click(function(){if(location.pathnam
 function externallinks() {if (!document.getElementsByTagName) return;var anchors = document.getElementsByTagName("a");for (var i=0; i<anchors.length; i++) {var anchor = anchors[i];if (anchor.getAttribute("href") && anchor.getAttribute("rel") == "nofollow external")anchor.target = "_blank";}}window.onload = externallinks;
 
 
-$(".comment-meta cite").attr("href",function(){return this.href.replace('http://www.appinn.com/out/','')})
+$(".comment-meta span a").attr("href",function(){return this.href.replace('http://www.appinn.com/out/','')})
 $(".entry-content a[href*='www.appinn.com'],.entry-content a:has(img)").css({background: "none", padding: "0"}).attr("rel","inlinks");
 $(".entry-content a[rel!='inlinks']").click(function(){window.open(this.href);return false;});
 
