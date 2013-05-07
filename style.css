@@ -167,11 +167,11 @@ padding-right: 13px;}
 #respong #commentform{width:567px;}
 #respond input,#cmt #commentform input, #respond textarea, #cmt #commentform textarea{border:1px solid #eee;border-color:#999 #f0e495 #f0e495 #999;padding:2px 5px;color:#777;font:13px Georgia, "Times New Roman", Times, serif;-moz-border-radius: 5px;border-radius: 5px;-webkit-box-shadow: inset 0 1px 3px;-moz-box-shadow: inset 0 1px 3px;box-shadow: inset 0 1px 3px;}
 #respond input#submit, #cmt #commentform input#submit{margin-bottom:25px;border:1px solid #eee;border-color:#c30 #300 #300 #c30; background:#900;color:#fff;padding:3px 15px;}
-#respond textarea#comment{width:95%;height:150px;}
+#respond textarea#comment{width:80%;height:150px;}
 #cmt #commentform{position:relative;}
 #cmt #commentform textarea#comment{width:70%;height:120px;}
 #respond label {padding-left: 10px;margin: 0;}
-#respond .avatar {position: absolute;right: 25px;border-radius: 3px;-webkit-box-shadow: 0 1px 2px #ccc;box-shadow: 0 1px 2px #ccc;}
+#respond .avatar {position: absolute;right: 40px;border-radius: 3px;-webkit-box-shadow: 0 1px 2px #ccc;box-shadow: 0 1px 2px #ccc;}
 .editinfo {font-size: 10px;color: rgb(141, 141, 141);float: right;}
 #reply-title small {font-size: 12px;}
 #reply-title small a{color: #777;}
