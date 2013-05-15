@@ -309,6 +309,7 @@ ins {background: #fff9c0;text-decoration: none;}
 .wp-paged-comments span.current {padding: 2px 4px 2px 4px; margin: 2px;font-weight: bold;border: 1px solid #000000;color: #000000;background-color: #FFFFFF;}
 .wp-paged-comments span.extend {	padding: 2px 4px 2px 4px; margin: 2px;border: 1px solid #000000;	color: #000000;	background-color: #FFFFFF;}
 .aligncenter {margin-left: auto;margin-right: auto;clear: both;display: block;}
+.pingback {border-bottom: 1px solid #ddd;margin-bottom: 10px;}
 /** Post Ratings**/
 .ratings{margin: 0;position: absolute;right: 0;top: 25px;}
 .ratings:after{content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0;}
