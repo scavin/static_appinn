@@ -183,7 +183,7 @@ padding-right: 13px;}
 .sidebar ul h4{height:25px;font-size:16px;line-height:20px;color:#c30;border-bottom:1px solid #e8ddcb;margin-bottom:10px;padding-left:39px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat 0 -96px;width:250px;}
 
 .sidebar ul{background:#f5f3f2;padding:25px 20px 0;}
-.sidebar ul li{list-style:none;margin-bottom:10px;border-bottom:20px solid #f5f3f2;}
+.sidebar ul li{list-style:none;border-bottom:20px solid #f5f3f2;}
 .sidebar ul ul{background:none;padding:0;}
 .sidebar ul li li{list-style:none;margin:0;padding:2px 0 2px 16px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat -313px -193px;border-bottom:1px solid #e8ddcb;}
 
@@ -278,7 +278,8 @@ img.imgdown {padding: 0;margin: 0 5px -9px 0;}
 #ckepop a{color:#000;}
 #ckepop span {padding-left: 30px;font-size: 18px;}
 #ckepop span:hover {background: url("http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png")-269px -255px no-repeat;}
-.ads {text-align: center;padding: 0 0 10px 0;}
+.ads, .ads-m {text-align: center;padding: 0 0 10px 0;}
+.ads-m {background: #f5f3f2;}
 .ads img {margin: 0;}
 .ads-ga {margin:0px 0px 10px 0px;}
 #nav-single{border-top: 1px solid #ebebeb;padding-top: 15px;}
