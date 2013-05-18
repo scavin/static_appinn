@@ -294,6 +294,7 @@ img.imgcontact {padding: 0;margin: 0 20px -18px 0;border: none;display: inline;}
 .hor{margin:0;padding: 25px 15px 0 90px;}
 .postcomment img.avatar {float: right;display: inline;border-radius: 3px;-webkit-box-shadow: 0 1px 2px #ccc;box-shadow: 0 1px 2px #ccc;margin: 0 15px 0 5px;}
 #bdun,#bdunaff {border-bottom: 1px solid #DDD;margin-bottom: 15px;padding-bottom: 15px;text-align: center;}
+#bdunc {border-top: 1px solid #DDD;padding: 15px 0;}
 .entry-content p, .entry-content ul {font:500 16px/1.8 Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;}
 .more-link {font-size: 14px;}
 #cse-search-box #q {width: 200px;}
