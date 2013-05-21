@@ -83,7 +83,7 @@ body{background:#e8ddcb;font:13px 'Helvetica Neue',Helvetica,Arial,'Hiragino San
 #topnav ul li.current_page_item a, #topnav ul li.current a{background:#fff;color:#900;}
 #topnav ul li ul{display:none;position:absolute;padding-top:10px;top:30px;left:0;background:#fff;border:1px solid #ddd;border-top:none;z-index:128;}
 #topnav ul li ul li{float:none;white-space:nowrap;font:12px/20px Georgia, "Times New Roman", Times, serif;}
-#topnav ul.sub-menu li a{font-size: 16px;color: #000;}
+#topnav ul.sub-menu li a{font-size: 13px;color: #000;}
 #topnav ul.sub-menu li a:hover {background-color: #999999;color: #fff;}
 
 #feed a.feed{position:absolute;bottom:7px;right:2px;width:16px;height:16px;display:block;text-indent:-9999em;}
