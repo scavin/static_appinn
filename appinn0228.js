@@ -9,7 +9,7 @@ Url: http://www.happinesz.cn/
 $(document).ready(function(){
   $('.flogo').html('');
   $('.feed').hover(function(){var sFeed=$('#feedurl').html();$('.ilogin').animate({width:'toggle'},100).html(sFeed).animate({width:'toggle'},500)}, function(){$(this).remove()})
-  $('#topnav ul li').hover(function(){$('#topnav ul li').removeClass('current_page_item');$('#topnav ul li').removeClass('current');$(this).attr('class','current').children('ul').css('opacity','0.9').slideDown(100)},function(){$(this).addClass('current').children('ul').slideUp(200)} );
+  $('#topnav ul li').hover(function(){$('#topnav ul li').removeClass('current_page_item');$('#topnav ul li').removeClass('current');$(this).attr('class','current').children('ul').css('opacity','0.95').slideDown(100)},function(){$(this).addClass('current').children('ul').slideUp(200)} );
   if ($('#author').val().length>0) {
     $("#author_info").hide();
   }
