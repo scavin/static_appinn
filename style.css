@@ -277,9 +277,16 @@ img.imgdown {padding: 0;margin: 0 5px -9px 0;}
 #newpost{position:absolute;top:272px;left:533px;}#newpost h4 {font-size:25px;}#newpost ul {margin:10px}
 #ckepop {margin: 20px 0;padding: 10px 0;border-top: 1px solid #ebebeb;}
 #ckepop h4 {color: #707070;padding: 10px 0 8px;font-size: 18px;}
-#ckepop a{color:#000;}
-#ckepop span {padding-left: 30px;font-size: 18px;}
-#ckepop span:hover {background: url("http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png")-269px -255px no-repeat;}
+#ckepop a{color:#BCBCBC;}
+.sharebutton {padding-left: 30px;font-size: 18px;}
+.sharebutton:hover {background: url("http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png")-269px -255px no-repeat;}
+.sharebutton span.tw:hover {color: #50C9FF;}
+.sharebutton span.weibo:hover {color: #D3121A;}
+.sharebutton span.qzone:hover {color: #9BD2EC;}
+.sharebutton span.renren:hover {color: #0C47A2;}
+.sharebutton span.douban:hover {color: #4DB05D;}
+.sharebutton span.tqq:hover {color: #2680B8;}
+.sharebutton span.gplus:hover {color: #d04028;}
 .ads, .ads-m {text-align: center;padding: 0 0 10px 0;}
 .ads-m {background: #f5f3f2;}
 .ads img {margin: 0;}
