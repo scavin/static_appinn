@@ -275,7 +275,7 @@ ul#mylink li{list-style:none;display:block;width:175px;border-bottom:1px dotted 
 .author_post{font-weight:700;border-bottom:1px solid #dddddd;;margin:0 0 15px;}
 img.imgdown {padding: 0;margin: 0 5px -9px 0;}
 #newpost{position:absolute;top:272px;left:533px;}#newpost h4 {font-size:25px;}#newpost ul {margin:10px}
-#ckepop {margin: 20px 0;padding: 10px 0;border-top: 1px solid #ebebeb;}
+#ckepop {margin: 15px 0;padding: 10px 0;border-top: 1px solid #ebebeb;}
 #ckepop h4 {color: #707070;padding: 10px 0 8px;font-size: 18px;}
 #ckepop a{color:#BCBCBC;}
 .sharebutton {padding-left: 30px;font-size: 18px;}
@@ -303,7 +303,7 @@ img.imgcontact {padding: 0;margin: 0 20px -18px 0;border: none;display: inline;}
 .hor{margin:0;padding: 25px 15px 0 90px;}
 .postcomment img.avatar {float: right;display: inline;border-radius: 3px;-webkit-box-shadow: 0 1px 2px #ccc;box-shadow: 0 1px 2px #ccc;margin: 0 15px 0 5px;}
 #bdun,#bdunaff {border-bottom: 1px solid #DDD;margin-bottom: 15px;padding-bottom: 15px;text-align: center;}
-#bdunc {border-top: 1px solid #DDD;padding: 15px 0;text-align: center;}
+#bdunc {border-top: 1px solid #DDD;padding-top: 15px;text-align: center;}
 .entry-content p, .entry-content ul {font:500 16px/1.8 Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;}
 .more-link {font-size: 14px;}
 #cse-search-box #q {width: 200px;}
