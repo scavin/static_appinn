@@ -308,6 +308,7 @@ img.imgcontact {padding: 0;margin: 0 20px -18px 0;border: none;display: inline;}
 .more-link {font-size: 14px;}
 #cse-search-box #q {width: 200px;}
 ins {background: #fff9c0;text-decoration: none;}
+.single-weibo {position: absolute;right: 140px;top: 25px;}
 /**  Tiny Contact Form **/
 .tcf_input {display:none !important; visibility:hidden !important;}
 #featured h3 a {color:#ffffff;}
@@ -358,7 +359,7 @@ ins {background: #fff9c0;text-decoration: none;}
 .wpfp-hide {display: none;}
 .wpfp-img {border: 0; vertical-align: middle; margin-right: 2px;}
 .remove-parent {color:#bbb;}
-.wpfp-addlink {position: absolute;right:135px;top:25px;}
+.wpfp-addlink {position: absolute;right:200px;top:23px;}
 .wpfp-span .navigation {padding-bottom: 50px;}
 .wpfp-span .remove-parent {float: right;}
 .wpfp-span ul li:hover {background: #f4f4f4;}
