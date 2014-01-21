@@ -289,7 +289,7 @@ img.imgdown {padding: 0;margin: 0 5px -9px 0;}
 .sharebutton span.gplus:hover {color: #d04028;}
 .ads, .ads-m {text-align: center;padding: 0 0 10px 0;}
 .ads-m {background: #f5f3f2;}
-.ads img {margin: 0;}
+.ads img {margin-bottom: 10px;}
 .ads-ga {margin:0px 0px 10px 0px;}
 #nav-single{border-top: 1px solid #ebebeb;padding-top: 15px;}
 #postfooterinfo .nav-previous{width:255px;float:left;padding-left: 20px;border-right: 1px solid #ebebeb;}
