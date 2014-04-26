@@ -310,6 +310,7 @@ img.imgcontact {padding: 0;margin: 0 20px -18px 0;border: none;display: inline;}
 ins {background: #fff9c0;text-decoration: none;}
 .single-weibo {position: absolute;right: 140px;top: 25px;}
 .bdsharebuttonbox {width: 460px;margin: 0 auto;}
+#wpadminbar #wp-admin-bar-forum a.ab-item:before {content: "\f125";display: inline-block;-webkit-font-smoothing: antialiased;font: 400 20px/1 'dashicons';vertical-align: top;top: 2px;}
 /**  Tiny Contact Form **/
 .tcf_input {display:none !important; visibility:hidden !important;}
 #featured h3 a {color:#ffffff;}
