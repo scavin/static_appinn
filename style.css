@@ -69,7 +69,7 @@ body{background:#e8ddcb;font:13px 'Helvetica Neue',Helvetica,Arial,'Hiragino San
 #topbox{margin:0 auto;width:410px;padding:14px 0 0 520px;height:274px;background:#F0E495;}
 #stopbox{height:6px;background:#c30;margin-bottom:20px;}
 
-#featured{position:relative;top:26px;height:190px;padding:30px 60px 10px 30px;width:310px;background:#F7F7F7;}
+#featured{position:relative;top:26px;height:201px;padding:30px 60px 10px 30px;width:310px;background:#F7F7F7;}
 #featured h3{width:118px;height:41px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat 0 0;line-height:41px;text-align:center;font-size:16px;color:#fff;position:absolute;top:-26px;}
 #featured li{border-bottom:1px solid #CCBF82;padding:3px 0 3px 16px;background:url(http://img3.appinn.com/wp-content/themes/appinn_wp/images/sprites1.png) no-repeat -313px 7px;}
 #featured li a{color:#000;}
@@ -275,7 +275,7 @@ ul#mylink li{list-style:none;display:block;width:175px;border-bottom:1px dotted 
 .author_post{font-weight:700;border-bottom:1px solid #dddddd;;margin:0 0 15px;}
 img.imgdown {padding: 0;margin: 0 5px -9px 0;}
 #newpost{position:absolute;top:272px;left:533px;}#newpost h4 {font-size:25px;}#newpost ul {margin:10px}
-#ckepop {margin: 15px 0;padding: 10px 0;border-top: 1px solid #ebebeb;}
+#ckepop {margin: 15px 0;padding: 10px 0 0 0;border-top: 1px solid #ebebeb;}
 #ckepop h4 {color: #707070;padding: 10px 0 8px;font-size: 18px;}
 #ckepop a{color:#BCBCBC;}
 .sharebutton {padding-left: 30px;font-size: 18px;}
@@ -309,6 +309,7 @@ img.imgcontact {padding: 0;margin: 0 20px -18px 0;border: none;display: inline;}
 #cse-search-box #q {width: 200px;}
 ins {background: #fff9c0;text-decoration: none;}
 .single-weibo {position: absolute;right: 140px;top: 25px;}
+.bdsharebuttonbox {width: 460px;margin: 0 auto;}
 /**  Tiny Contact Form **/
 .tcf_input {display:none !important; visibility:hidden !important;}
 #featured h3 a {color:#ffffff;}
