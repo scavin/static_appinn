@@ -312,10 +312,9 @@ ins {background: #fff9c0;text-decoration: none;}
 .bdsharebuttonbox {width: 460px;margin: 0 auto;}
 
 /* wpadminbar-favicon */
-#wpadminbar .menupopicom a.ab-item:before {display: inline-block;-webkit-font-smoothing: antialiased;font: 400 20px/1 'dashicons';vertical-align: top;top: 2px;}
-#wp-admin-bar-forum a.ab-item:before{content: "\f125";}
+#wp-admin-bar-forum a.ab-item:before{content: "\f125";top: 2px;}
 #wp-admin-bar-forum .ab-submenu a.ab-item:before{content:none;}
-#wp-admin-bar-love a.ab-item:before {content: "\f313";}
+#wp-admin-bar-love a.ab-item:before {content: "\f313";top: 2px;}
 #wp-admin-bar-love .ab-submenu a.ab-item:before{content:none;}
 /**  Tiny Contact Form **/
 .tcf_input {display:none !important; visibility:hidden !important;}
