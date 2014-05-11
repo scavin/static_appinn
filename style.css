@@ -23,7 +23,7 @@ img, img a{border:none;}
 p{margin-bottom:15px;word-wrap: break-word; word-break: normal;}
 code{font-family:Georgia, "Times New Roman", Times, serif;word-break:all;}
 code.code_bg{display:block;padding:10px;border:1px dotted #b3b3b3;border-left:5px solid #ddd;background:#f9f9f9;}
-blockquote{background:#f7f7f7;border:1px dotted #a3a3a3;padding:15px 15px 0;margin-bottom:15px;}
+blockquote{font-family: Optima, Georgia, STSong, serif;margin: 1em 0;color: #999;padding: 0.6em 1em;background: #f8f8f8;border-left: 0.4em solid #ddd;}
 blockquote blockquote{margin:0 0 15px;background:#ffc;}
 h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-family: Arial, 微软雅黑, 黑体, sans-serif;}
 
@@ -109,7 +109,7 @@ a.more-link:hover{color:#000;border-bottom-color:#000;}
 .entry-meta a.post-edit-link, #cmt ol li a.comment-edit-link{color:#777;font-size:10px;}
 .entry-meta a.post-edit-link:hover, #cmt ol li a.comment-edit-link:hover{text-decoration:underline;color:#9c0;}
 
-.post ol, .post ul{margin-left: 1.9em;}
+.post ol, .post ul{margin-left: 3.9em;margin-bottom: 1.2em;}
 .post ul li {list-style:disc;}
 .post ol li{list-style:decimal;}
 .post ol li ul li {list-style: circle;}
@@ -126,6 +126,8 @@ a.more-link:hover{color:#000;border-bottom-color:#000;}
 .entry-content div {margin-bottom:15px;}
 .entry-content a {background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=) center right no-repeat;
 padding-right: 13px;}
+.entry-content {font: 500 16px/1.8 Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;}
+.entry-content p, .entry-content ul {margin-bottom: 5px;}
 
 #fpost{position:absolute;top:-272px;left:-333px;}
 #fpost .post{height:auto;border-bottom:none;width:456px;}
@@ -304,7 +306,6 @@ img.imgcontact {padding: 0;margin: 0 20px -18px 0;border: none;display: inline;}
 .postcomment img.avatar {float: right;display: inline;border-radius: 3px;-webkit-box-shadow: 0 1px 2px #ccc;box-shadow: 0 1px 2px #ccc;margin: 0 15px 0 5px;}
 #bdun,#bdunaff {border-bottom: 1px solid #DDD;margin-bottom: 15px;padding-bottom: 15px;text-align: center;}
 #bdunc {border-top: 1px solid #DDD;padding-top: 15px;text-align: center;}
-.entry-content p, .entry-content ul {font:500 16px/1.8 Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;}
 .more-link {font-size: 14px;}
 #cse-search-box #q {width: 200px;}
 ins {background: #fff9c0;text-decoration: none;}
