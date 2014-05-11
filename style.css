@@ -109,7 +109,7 @@ a.more-link:hover{color:#000;border-bottom-color:#000;}
 .entry-meta a.post-edit-link, #cmt ol li a.comment-edit-link{color:#777;font-size:10px;}
 .entry-meta a.post-edit-link:hover, #cmt ol li a.comment-edit-link:hover{text-decoration:underline;color:#9c0;}
 
-.post ol, .post ul{margin-left: 3.9em;margin-bottom: 1.2em;}
+.post ol, .post ul {font: 500 16px/1.6 Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;margin: -0.5em 0 1.2em 3.5em;}
 .post ul li {list-style:disc;}
 .post ol li{list-style:decimal;}
 .post ol li ul li {list-style: circle;}
@@ -126,8 +126,7 @@ a.more-link:hover{color:#000;border-bottom-color:#000;}
 .entry-content div {margin-bottom:15px;}
 .entry-content a {background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=) center right no-repeat;
 padding-right: 13px;}
-.entry-content {font: 500 16px/1.8 Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;}
-.entry-content p, .entry-content ul {margin-bottom: 5px;}
+.entry-content p {font: 500 16px/1.8 Lucida,Verdana,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;margin-bottom: 15px;}
 
 #fpost{position:absolute;top:-272px;left:-333px;}
 #fpost .post{height:auto;border-bottom:none;width:456px;}
