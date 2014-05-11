@@ -25,6 +25,7 @@ code{font-family:Georgia, "Times New Roman", Times, serif;word-break:all;}
 code.code_bg{display:block;padding:10px;border:1px dotted #b3b3b3;border-left:5px solid #ddd;background:#f9f9f9;}
 blockquote{font-family: Optima, Georgia, STSong, serif;margin: 1em 0;color: #999;padding: 0.6em 1em;background: #f8f8f8;border-left: 0.4em solid #ddd;}
 blockquote blockquote{margin:0 0 15px;background:#ffc;}
+.entry-content blockquote p {margin-bottom: 0;}
 h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-family: Arial, 微软雅黑, 黑体, sans-serif;}
 
 /** Layout **/
